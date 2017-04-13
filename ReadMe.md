@@ -1,5 +1,5 @@
 ## Description
-This script implements a simple genetic algorithm which was discussed in class. The implementation was done in Python 2.7.
+This script implements a simple genetic algorithm. The implementation was done in Python 2.7.
 
 ## Approach
 Overall, the implementation starts by initializing a random population, we then loop until we reach the best fitness, or we reach a maximum number of generations we set. Each file includes a specific fitness function to the problem it's treating.
@@ -17,7 +17,7 @@ The script calculates the best fitness in each generation of the population. The
 
 ## Installation
 
-The script accepts exactly 3 arguments. First, the number of individuals in each population, then the number of genes of the individuals/bitstrings. The third argument is the maximum number of generations for which we'll run the GA, and last the mutation rate.
+The script accepts exactly 4 arguments. First, the number of individuals in each population, then the number of genes of the individuals/bitstrings. The third argument is the maximum number of generations for which we'll run the GA, and last the mutation rate.
 
 To run the GA, just use the following command:
 ```
